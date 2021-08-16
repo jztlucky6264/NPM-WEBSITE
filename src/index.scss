@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.header1 {
+  height: 17vh;
+  background: #231f20;
+
+  p {
+    text-align: center;
+    line-height: 100%;
+    padding-top: 2rem;
+    color: white;
+    font-size: 32px;
+  }
+}
+
+.clrmixture {
+  padding: 0px 0 0 0;
+  border-width: 10px 0 0;
+  border-top-style: solid;
+  border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+}
+.navbar-nav {
+  font-size: 24px;
+  font-family: "Poppins";
+  color: #000;
+  letter-spacing: 0.015625em;
+  li {
+    margin: 0 1rem;
+  }
+}
+nav {
+  border-bottom: 0.5px solid #70b8ff;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 0.015625em;
+}
+.dropdown-menu {
+  max-width: 15%;
+  //box-shadow: 0 0 4px 2px rgba($color: #f38ee696, $alpha: 1);
+  font-size: 24px;
+  font-family: "Poppins";
+  color: #000;
+  opacity: 1;
+  z-index: 10;
+  padding: 8px 0;
+  border-radius: 5px;
+  margin-left: -3rem;
+}
+.navbar2 {
+  background: #ced4da;
+  .icon {
+    font-size: 4rem;
+  }
+  button {
+    margin: 1rem;
+    width: 40%;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    input {
+      color: #490505;
+      background: #ced4da;
+      outline: none;
+      border: none;
+      font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+}
+.div1 {
+  background-image: url("https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=715&q=80");
+  height: 200vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  p {
+    color: #fff;
+    margin-top: 2rem;
+    max-width: 50vw;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  h1 {
+    margin-top: 4rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 1000;
+    font-size: 10rem;
+    color: #fff;
+    text-align: center;
+  }
+  h2 {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    margin: 3rem;
+    font-size: 4rem;
+    text-align: center;
+  }
+  .div2 {
+    .btn {
+      font-size: 2rem;
+      border-radius: 2rem;
+      margin-top: 4rem;
+    }
+    .btn2 {
+      background-color: #cb3837;
+      border-color: white;
+      color: white;
+      //  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      //    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .btn1 {
+      border: none;
+      margin-right: 8rem;
+      background: #ebaa07;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      color: #000000;
+    }
+  }
+}
+.div3 {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .icon2 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    margin: 3rem;
+    font-size: 4rem;
+    text-align: center;
+  }
+  p {
+    margin-top: 2rem;
+    max-width: 50vw;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+}
+.div4 {
+  position: relative;
+  margin-top: 8rem;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-height: 50%;
+  background-image: url("https://images.unsplash.com/photo-1616587546411-40306fe9733b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
+
+  h1 {
+    margin: 3rem 0;
+    text-align: center;
+    color: white;
+  }
+  p {
+    width: 50%;
+    color: white;
+    text-align: center;
+  }
+}
+.div5 {
+  height: 50vh;
+  border-bottom: 1px solid #ec74be;
+  margin-bottom: 2rem;
+  h2 {
+    margin: 3rem 4rem 0 4rem;
+    text-align: center;
+    margin-top: 3rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+  }
+  // .img {
+  //   background-image: url("C:/Users/lucky yadav/Pictures/companytags.png");
+  //background-position: center;
+  //  background-size: cover;
+  //height: min-content;
+  //width: 50%;
+  //}
+}
+.footer_div {
+  margin-top: 5rem;
+  border-top: 2px solid black;
+  position: relative;
+  .firstdiv {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    .icon3 {
+      font-size: 4rem;
+    }
+    ul {
+      font-size: 2rem;
+    }
+    li {
+      list-style-type: none;
+      list-style-position: inside;
+      text-decoration: none;
+      font-size: 1.4rem;
+      color: rgba(0, 0, 0, 0.7);
+      font-weight: 400;
+      line-height: 2;
+      font-family: "Poppins";
+    }
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  bottom: 5rem;
+
+  .contact--us {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+    color: white;
+    border-radius: 30px;
+    width: 145px;
+    height: 40px;
+    background: linear-gradient(
+      166.66deg,
+      #1f75ce 4.62%,
+      #1779cf 4.62%,
+      #744bc4 86.29%
+    );
+    cursor: pointer;
+    margin-bottom: 1rem;
+    h1 {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      font-size: 1rem;
+      text-align: center;
+      margin-top: 0.5rem;
+    }
+    @-webkit-keyframes up-down {
+      0% {
+        transform: translateY(10px);
+      }
+      100% {
+        transform: translateY(-10px);
+      }
+    }
+    @keyframes up-down {
+      0% {
+        transform: translateY(10px);
+      }
+      100% {
+        transform: translateY(-10px);
+      }
+    }
+  }
+}
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+  .header1 {
+    p {
+      padding-top: 1rem;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .header1 {
+    p {
+      padding-top: 1rem;
+      font-size: 18px;
+    }
+  }
+  .navbar-nav {
+    font-size: 18px;
+  }
+  .navbar-brand {
+    font-size: 1rem;
+  }
+  .navbar2 {
+    .icon {
+      font-size: 3rem;
+    }
+  }
+  .dropdown-menu {
+    font-size: 18px;
+  }
+  .div1 {
+    height: min-content;
+    width: 100vw;
+    h1 {
+      font-weight: 500;
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1rem;
+      font-weight: 200;
+      text-align: start;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+
+    .div2 {
+      text-align: center;
+      .btn {
+        font-size: 1rem;
+      }
+      .btn1 {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+  .div4 {
+    margin-top: 5rem;
+    h1 {
+      margin: 2rem 0;
+    }
+    p {
+      text-align: start;
+      font-size: 0.9rem;
+    }
+  }
+  .firstdiv {
+    .icon3 {
+      font-size: 3rem;
+    }
+    ul {
+      font-size: 1.5rem;
+    }
+    li {
+      font-size: 1rem;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 992px) {
+  .header1 {
+    p {
+      font-size: 20px;
+      margin-top: 0;
+    }
+  }
+  .div1 {
+    h1 {
+      font-weight: 700;
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    .div2 {
+      text-align: center;
+      .btn {
+        font-size: 1.5rem;
+      }
+      .btn1 {
+        margin-right: 0.8rem;
+      }
+    }
+  }
+  .footer_div {
+    width .firstdiv {
+      height: 100vh;
+    }
+  }
+}
+@media screen and (max-width: 939px) {
+  .div1 {
+    height: 210vh;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 1200px) {
+  .div1 {
+    h1 {
+      font-weight: 700;
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    .div2 {
+      text-align: center;
+    }
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1400px) {
+  .div1 {
+    height: min-content;
+
+    .div2 {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+//@media (min-width: 1399.98px) { ... }
